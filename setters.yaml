@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: setters
+  namespace: config-control
+data:
+  network-name: acmvpc
+  project-id: searce-sandbox-355505
+  region: australia-southeast1
+  prefix: nat
